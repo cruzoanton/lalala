@@ -17,7 +17,8 @@ module.exports = {
             height: {
                 'auth': '554px',
                 'header': '82px',
-                'footer': '131px'
+                'footer': '131px',
+                'reset': '426px'
             },
             borderRadius: {
                 'form': '24px'
