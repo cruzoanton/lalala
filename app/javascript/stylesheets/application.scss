@@ -1,3 +1,14 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer base {
+  @font-face {
+    font-family: 'Kodchasan';
+    src: url('/fonts/Kodchasan/Kodchasan-Regular.ttf');
+  }
+
+  label {
+    @apply font-semibold text-label;
+  }
+}
