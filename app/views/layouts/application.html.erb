@@ -11,7 +11,9 @@
     <%= stylesheet_pack_tag "application", "data-turbo-track": "reload" %>
   </head>
 
-  <body>
+  <body class="bg-background">
+  <%= render "layouts/header"%>
     <%= yield %>
+  <%= render "layouts/footer"%>
   </body>
 </html>

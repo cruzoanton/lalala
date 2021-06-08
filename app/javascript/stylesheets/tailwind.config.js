@@ -4,16 +4,23 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                green: {
-                    "busmon-dark": '#3B837C'
-                },
-                secondblack: '#626466'
+                main: '#3B837C',
+                secondblack: '#626466',
+                background: '#F9FBFD',
+                grey: '#C8CCD9'
             },
             width: {
-                'auth': '540px'
+                'auth': '540px',
+                'auth-form': '350px',
+                'space': '80px'
             },
             height: {
-                'auth': '554px'
+                'auth': '554px',
+                'header': '82px',
+                'footer': '131px'
+            },
+            borderRadius: {
+                'form': '24px'
             }
         },
         left: {
@@ -24,14 +31,10 @@ module.exports = {
         },
         fontSize: {
             heading: ['32px', '42px'],
+            logo: ['26px', '36px'],
             subheading: ['16px', '24px'],
             label: ['14px', '18px'],
             link: ['14px', '22px']
-        },
-        fontWeight: {
-            normal: 400,
-            bold: 700,
-            semibold: 600
         },
         variants: {
             extend: {},
