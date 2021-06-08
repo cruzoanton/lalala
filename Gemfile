@@ -14,6 +14,7 @@ gem "puma", "~> 5.0"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
+gem "hotwire-rails", "~> 0.1"
 
 # authentication
 gem "devise", "~> 4.8"
