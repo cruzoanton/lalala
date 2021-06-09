@@ -7,7 +7,8 @@ module.exports = {
                 main: '#3B837C',
                 secondblack: '#626466',
                 background: '#F9FBFD',
-                grey: '#C8CCD9'
+                grey: '#C8CCD9',
+                secondmain: '#E4F9F7'
             },
             width: {
                 'auth': '540px',
